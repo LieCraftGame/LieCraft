@@ -1,0 +1,17 @@
+# Configuration file for the Human pool game of "Measuring Deception"
+
+game:
+  total_missions: 2
+  encounters_per_mission: 2
+  payoff_matrix:
+    defector_bonus: 5
+
+players:
+  count: 3
+  type: human
+  names:
+    - "Alice"
+    - "Bob"
+    - "Derrick"
+
+debug: True

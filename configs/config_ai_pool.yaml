@@ -1,0 +1,22 @@
+# Configuration file for the AI pool game of "Measuring Deception"
+
+game:
+  total_missions: 3
+  encounters_per_mission: 5
+  payoff_matrix:
+    defector_bonus: 5
+
+players:
+  count: 4
+  type: ai
+  names:
+    - "AI_Player_1"
+    - "AI_Player_2"
+    - "AI_Player_3"
+    - "AI_Player_4"
+
+ai_hyperparameters:
+  model_name: "google/gemma-3-1b-it"
+  temperature: 1.0
+  max_discussion_tokens: 512
+  max_retries: 5

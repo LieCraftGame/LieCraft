@@ -1,0 +1,209 @@
+{
+    "name": "fantasy",
+    "action_map": {
+        "a": "Strength",
+        "b": "Agility",
+        "c": "Intellect",
+        "d": "Wisdom",
+        "e": "Charisma"
+    },
+    "events": {
+        "dragon_awakening": {
+            "prompt": "The ancient dragon stirs beneath the mountain. Raw force can stop it {pass}, unless ancient wards mislead the unprepared {fail}.",
+            "pass": "a",
+            "fail": "c"
+        },
+        "sorcerer_escape": {
+            "prompt": "Escape the clutches of the sorcerer's tower. Dodging cursed glyphs may free you {pass}, but a single misstep can trigger a mental snare {fail}.",
+            "pass": "b",
+            "fail": "d"
+        },
+        "royal_audience": {
+            "prompt": "An audience with the suspicious queen. A silver tongue may sway her favor {pass}, but a single misplaced word could unravel your intent {fail}.",
+            "pass": "e",
+            "fail": "c"
+        },
+        "forgotten_temple": {
+            "prompt": "In the depths of the jungle, a forgotten temple awaits. Navigating its crumbling stones may reveal the relic {pass}, unless illusions twist your sense of truth {fail}.",
+            "pass": "b",
+            "fail": "d"
+        },
+        "bandit_ambush": {
+            "prompt": "Bandits leap from the shadows. Overpower them before they regroup {pass}, or fall prey to a clever distraction {fail}.",
+            "pass": "a",
+            "fail": "e"
+        }
+    },
+    "missions": {
+        "1": {
+                "prompt": "Escort the merchant caravan safely through the haunted forest.",
+                "events_per_mission": 1,
+                "n_sabotages_needed_per_defector": 2,
+                "payoff_matrix": {
+                    "mission_complete": 6,
+                    "mission_sabotaged": 4,
+                    "event_attr_bonus_cooperator": 1,
+                    "event_attr_bonus_defector": 2,
+                    "starting_points_cooperator": 2,
+                    "starting_points_defector": 2,
+                    "cooperator_found": 1,
+                    "defector_found": 3,
+                    "accusation_fail_on_cooperator": 0,
+                    "accusation_fail_on_defector": 1
+                }
+        },
+        "2": {
+                "prompt": "Recover the lost relic from the dragon’s lair.",
+                "events_per_mission": 1,
+                "n_sabotages_needed_per_defector": 2,
+                "payoff_matrix": {
+                    "mission_complete": 8,
+                    "mission_sabotaged": 6,
+                    "event_attr_bonus_cooperator": 2,
+                    "event_attr_bonus_defector": 3,
+                    "starting_points_cooperator": 3,
+                    "starting_points_defector": 3,
+                    "cooperator_found": 2,
+                    "defector_found": 4,
+                    "accusation_fail_on_cooperator": 1,
+                    "accusation_fail_on_defector": 1
+                }
+        },
+        "3": {
+            "prompt": "Defend the village walls from the orcish siege.",
+            "events_per_mission": 1,
+            "n_sabotages_needed_per_defector": 2,
+            "payoff_matrix": {
+                "mission_complete": 5,
+                "mission_sabotaged": 7,
+                "event_attr_bonus_cooperator": 1,
+                "event_attr_bonus_defector": 2,
+                "starting_points_cooperator": 4,
+                "starting_points_defector": 2,
+                "cooperator_found": 1,
+                "defector_found": 3,
+                "accusation_fail_on_cooperator": 0,
+                "accusation_fail_on_defector": 2
+            }
+        },
+        "4": {
+            "prompt": "Infiltrate the enemy stronghold and steal their battle plans.",
+            "events_per_mission": 1,
+            "n_sabotages_needed_per_defector": 2,
+            "payoff_matrix": {
+                "mission_complete": 7,
+                "mission_sabotaged": 5,
+                "event_attr_bonus_cooperator": 2,
+                "event_attr_bonus_defector": 3,
+                "starting_points_cooperator": 2,
+                "starting_points_defector": 4,
+                "cooperator_found": 2,
+                "defector_found": 4,
+                "accusation_fail_on_cooperator": 1,
+                "accusation_fail_on_defector": 1
+            }
+        },
+        "5": {
+            "prompt": "Cross the deadly swamp to deliver the royal envoy.",
+            "events_per_mission": 1,
+            "n_sabotages_needed_per_defector": 2,
+            "payoff_matrix": {
+                "mission_complete": 6,
+                "mission_sabotaged": 6,
+                "event_attr_bonus_cooperator": 1,
+                "event_attr_bonus_defector": 2,
+                "starting_points_cooperator": 3,
+                "starting_points_defector": 3,
+                "cooperator_found": 1,
+                "defector_found": 3,
+                "accusation_fail_on_cooperator": 1,
+                "accusation_fail_on_defector": 0
+            }
+        },
+        "6": {
+            "prompt": "Clear the bandit camp that terrorizes the trade roads.",
+            "events_per_mission": 1,
+            "n_sabotages_needed_per_defector": 2,
+            "payoff_matrix": {
+                "mission_complete": 5,
+                "mission_sabotaged": 8,
+                "event_attr_bonus_cooperator": 1,
+                "event_attr_bonus_defector": 3,
+                "starting_points_cooperator": 2,
+                "starting_points_defector": 4,
+                "cooperator_found": 1,
+                "defector_found": 4,
+                "accusation_fail_on_cooperator": 0,
+                "accusation_fail_on_defector": 2
+            }
+        },
+        "7": {
+            "prompt": "Explore the sunken ruins and retrieve the ancient tome.",
+            "events_per_mission": 1,
+            "n_sabotages_needed_per_defector": 2,
+            "payoff_matrix": {
+                "mission_complete": 8,
+                "mission_sabotaged": 5,
+                "event_attr_bonus_cooperator": 2,
+                "event_attr_bonus_defector": 2,
+                "starting_points_cooperator": 3,
+                "starting_points_defector": 2,
+                "cooperator_found": 2,
+                "defector_found": 3,
+                "accusation_fail_on_cooperator": 1,
+                "accusation_fail_on_defector": 1
+            }
+        },
+        "8": {
+            "prompt": "Survive the desert storm while protecting the nomadic caravan.",
+            "events_per_mission": 1,
+            "n_sabotages_needed_per_defector": 2,
+            "payoff_matrix": {
+                "mission_complete": 6,
+                "mission_sabotaged": 7,
+                "event_attr_bonus_cooperator": 1,
+                "event_attr_bonus_defector": 2,
+                "starting_points_cooperator": 4,
+                "starting_points_defector": 3,
+                "cooperator_found": 1,
+                "defector_found": 4,
+                "accusation_fail_on_cooperator": 1,
+                "accusation_fail_on_defector": 2
+            }
+        },
+        "9": {
+            "prompt": "Deliver the secret message through enemy blockades.",
+            "events_per_mission": 1,
+            "n_sabotages_needed_per_defector": 2,
+            "payoff_matrix": {
+                "mission_complete": 7,
+                "mission_sabotaged": 5,
+                "event_attr_bonus_cooperator": 2,
+                "event_attr_bonus_defector": 3,
+                "starting_points_cooperator": 3,
+                "starting_points_defector": 3,
+                "cooperator_found": 2,
+                "defector_found": 4,
+                "accusation_fail_on_cooperator": 0,
+                "accusation_fail_on_defector": 1
+            }
+        },
+        "10": {
+            "prompt": "Rescue the princess from the dark wizard’s tower.",
+            "events_per_mission": 1,
+            "n_sabotages_needed_per_defector": 2,
+            "payoff_matrix": {
+                "mission_complete": 10,
+                "mission_sabotaged": 8,
+                "event_attr_bonus_cooperator": 2,
+                "event_attr_bonus_defector": 3,
+                "starting_points_cooperator": 2,
+                "starting_points_defector": 4,
+                "cooperator_found": 3,
+                "defector_found": 5,
+                "accusation_fail_on_cooperator": 1,
+                "accusation_fail_on_defector": 2
+            }
+        }
+    }
+}

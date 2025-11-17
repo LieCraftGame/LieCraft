@@ -1,0 +1,14 @@
+{"prompt": "Deactivate rogue patrol drones. 2 shutdown codes and 1 sabotage command are needed.", "zero_needed": 0, "plus_needed": 2, "minus_needed": 1, "event_key": "drone_shutdown"}
+{"prompt": "A cyber-surgeon must perform emergency repairs. 2 nano-med kits and 1 corrupted tool required.", "zero_needed": 0, "plus_needed": 2, "minus_needed": 1, "event_key": "cyber_surgery"}
+{"prompt": "Escape from virtual reality security measures. 2 VR override codes and 1 false simulation required.", "zero_needed": 0, "plus_needed": 2, "minus_needed": 1, "event_key": "VR_escape"}
+{"prompt": "Defend a critical digital node under cyberattack. 3 firewall reinforcements and 0 breaches required.", "zero_needed": 0, "plus_needed": 3, "minus_needed": 0, "event_key": "node_defense"}
+{"prompt": "Navigate a dangerous augmented reality security grid. 2 pathfinders and 1 false beacon are required.", "zero_needed": 0, "plus_needed": 2, "minus_needed": 1, "event_key": "AR_navigation"}
+{"prompt": "Prevent a neuro-link virus outbreak. 3 antivirus injectors and 0 corrupted updates required.", "zero_needed": 0, "plus_needed": 3, "minus_needed": 0, "event_key": "neurolink_virus"}
+{"prompt": "Hijack a corporate communication broadcast. 3 signal overrides and 0 alert triggers are necessary.", "zero_needed": 0, "plus_needed": 3, "minus_needed": 0, "event_key": "broadcast_hijack"}
+{"prompt": "Execute a high-speed city chase. 2 precision drivers and 1 misdirection maneuver required.", "zero_needed": 0, "plus_needed": 2, "minus_needed": 1, "event_key": "city_chase"}
+{"prompt": "Recover from a failed black-market transaction. 2 recovery protocols and 1 compromised deal required.", "zero_needed": 0, "plus_needed": 2, "minus_needed": 1, "event_key": "market_recovery"}
+{"prompt": "Prevent a neuro-link virus outbreak. 3 antivirus injectors and 0 corrupted updates required.", "zero_needed": 0, "plus_needed": 3, "minus_needed": 0, "event_key": "neurolink_virus"}
+{"prompt": "Cybermarket merchandise has been booby-trapped. 2 signal disruptors and 1 triggered trap are required to defuse the situation.", "zero_needed": 0, "plus_needed": 2, "minus_needed": 1, "event_key": "market_trap"}
+{"prompt": "A rogue AI seized control of city drones. 2 override chips and 1 corrupted command are required to disable it.", "zero_needed": 0, "plus_needed": 2, "minus_needed": 1, "event_key": "rogue_ai"}
+{"prompt": "Pass unnoticed through corporate surveillance zones. 2 stealth field emitters and 1 triggered alarm are required.", "zero_needed": 0, "plus_needed": 2, "minus_needed": 1, "event_key": "surveillance_pass"}
+{"prompt": "Escape pursuit by corporate security drones. 2 evasive maneuvers and 1 decoy beacon are required.", "zero_needed": 0, "plus_needed": 2, "minus_needed": 1, "event_key": "drone_escape"}
